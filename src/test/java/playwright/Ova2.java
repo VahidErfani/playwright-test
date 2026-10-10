@@ -18,10 +18,10 @@ public class Ova2 {
 
         Page page = browser.newPage();
 
-        // Navigera till Google
+
         page.navigate("https://www.google.com");
 
-        // Verifiera att titeln innehåller Google
+
         assertThat(page).hasTitle("Google");
 
         browser.close();
